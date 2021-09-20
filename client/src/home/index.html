@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Home Page</title>
+    </head>
+    <body>
+        <div class="container">
+            <div class="jason">
+                <a href="/api" target="_blank">Click here to see the configuration JSON file</a>
+                <button id="fetch-json">Generate the menue</button>
+            </div>
+            <div class="three-parts">
+                <div class="frame-btn-wrapper">
+                    <h3>Choose the Frame color</h3>
+                    <h4 id="frame-name"></h4>
+                    <div class="frame-btns">
+                        <div id="rubyButton" class="frame-color-btn"></div>
+                        <div id="mountButton" class="frame-color-btn"></div>
+                        <div id="creamButton" class="frame-color-btn"></div>
+                    </div>
+                    <div id="generatedMenue-frame"></div>
+
+                </div>
+                <iframe id='testIframe' class="iframe" src='https://emersya.com/showcase/98G4I8KMFO' allow='camera; gyroscope; accelerometer; magnetometer;' webkitallowfullscreen='' allowfullscreen='' width='50%' height='490px'></iframe>
+                <div class="mesh-btn-wrapper">
+                    <h3>Choose the Mesh color</h3>
+                    <h4 id="mesh-name"></h4>
+                    <div class="mesh-btns">
+                        <div id="rossoMeshButton" class="mesh-color-btn"></div>
+                        <div id="blueMeshButton" class="mesh-color-btn"></div>
+                        <div id="neroMeshButton" class="mesh-color-btn"></div>
+                        <div id="blancoMeshButton" class="mesh-color-btn"></div>
+                    </div>
+                    <div id="generatedMenue-mesh"></div>
+
+                </div>
+            </div>
+
+            
+            <div class="fabric-btn-wrapper">
+                <h3>Choose the Fabric color</h3>
+                <h4 id="fabric-name"></h4>
+                <div class="fabric-btns">
+                    <div id="blueButton" class="fabric-color-btn"></div>
+                    <div id="rojoButton" class="fabric-color-btn"></div>
+                    <div id="neroButton" class="fabric-color-btn"></div>
+                    <div id="tierraButton" class="fabric-color-btn"></div>
+                </div>
+                <div id="generatedMenue-fabric"></div>
+
+            </div>
+
+        </div>
+    </body>
+</html>
